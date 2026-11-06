@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Baitun-nur-jame-mashjid-/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
