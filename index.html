@@ -10,7 +10,7 @@
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     
-    <!-- Favicon: Clean Minaret Dome Silhouette -->
+    <!-- Favicon: Clean Mosque & Minaret Silhouette -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232dd4bf'%3E%3Cpath d='M12 2c-.5 0-1 .4-1 .9v1.2C8.7 5.1 7 7.3 7 10v10h10V10c0-2.7-1.7-4.9-4-5.9V2.9c0-.5-.5-.9-1-.9zm-3 10h6v6H9v-6z'/%3E%3C/svg%3E" />
     
     <!-- Google Fonts: Hind Siliguri, Noto Sans Bengali, Amiri (Arabic), Outfit -->
@@ -35,7 +35,7 @@
       }
     </script>
 
-    <!-- Full Acrylic Liquid Glassmorphism, Zero-Star Arabesque Backdrop & Responsive Styles -->
+    <!-- Hyper-Realistic Sky Animations, Liquid Glassmorphism & Custom Keyframes -->
     <style>
       *, *::before, *::after {
         box-sizing: border-box;
@@ -58,7 +58,7 @@
       .font-display { font-family: 'Outfit', sans-serif; }
 
       /* =========================================================================
-         1. DYNAMIC ISLAMIC BACKGROUND (NO STARS - PURE ARABESQUE & CALLIGRAPHY)
+         1. DYNAMIC AMBIENT BACKDROP (ZERO STARS - PURE ARABESQUE & CALLIGRAPHY)
          ========================================================================= */
       .islamic-ambient-backdrop {
         position: fixed;
@@ -70,10 +70,9 @@
         overflow: hidden;
       }
 
-      /* Arabesque Arch Geometric Wave & Subtle Watermark Texture (NO STARS) */
       .islamic-arabesque-texture {
         background-image: 
-          radial-gradient(circle at 50% 30%, rgba(45, 212, 191, 0.08) 0%, transparent 60%),
+          radial-gradient(circle at 50% 25%, rgba(45, 212, 191, 0.08) 0%, transparent 60%),
           radial-gradient(circle at 15% 75%, rgba(245, 158, 11, 0.07) 0%, transparent 45%),
           radial-gradient(circle at 85% 80%, rgba(16, 185, 129, 0.07) 0%, transparent 45%),
           url("data:image/svg+xml,%3Csvg width='160' height='160' viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M80 0 C60 30 20 40 0 80 C20 120 60 130 80 160 C100 130 140 120 160 80 C140 40 100 30 80 0 Z' fill='none' stroke='%232dd4bf' stroke-width='0.8' stroke-opacity='0.04'/%3E%3Cpath d='M80 20 C65 45 35 55 20 80 C35 105 65 115 80 140 C95 115 125 105 140 80 C125 55 95 45 80 20 Z' fill='none' stroke='%23f59e0b' stroke-width='0.6' stroke-opacity='0.035'/%3E%3C/svg%3E");
@@ -92,10 +91,10 @@
       }
 
       .acrylic-glass-card {
-        background: linear-gradient(145deg, rgba(17, 30, 52, 0.70) 0%, rgba(8, 15, 26, 0.88) 100%);
+        background: linear-gradient(145deg, rgba(17, 30, 52, 0.72) 0%, rgba(8, 15, 26, 0.90) 100%);
         backdrop-filter: blur(40px) saturate(200%);
         -webkit-backdrop-filter: blur(40px) saturate(200%);
-        border: 1px solid rgba(255, 255, 255, 0.12);
+        border: 1px solid rgba(255, 255, 255, 0.13);
         box-shadow: 
           inset 0 1px 1px 0 rgba(255, 255, 255, 0.2),
           inset 0 -1px 2px 0 rgba(0, 0, 0, 0.6),
@@ -104,29 +103,29 @@
       }
 
       .acrylic-glass-card:hover {
-        border-color: rgba(45, 212, 191, 0.45);
+        border-color: rgba(45, 212, 191, 0.5);
         box-shadow: 
           inset 0 1px 2px 0 rgba(255, 255, 255, 0.3),
-          0 0 28px rgba(45, 212, 191, 0.25),
+          0 0 30px rgba(45, 212, 191, 0.3),
           0 24px 50px rgba(0, 0, 0, 0.65);
         transform: translateY(-3px);
       }
 
-      /* Continuous Neon Edge Strokes */
+      /* Active Ongoing Prayer Card Continuous Pulsing Neon Gold */
       @keyframes neonPulseGold {
         0%, 100% {
           border-color: #f59e0b;
           box-shadow: 
-            0 0 20px rgba(245, 158, 11, 0.5),
-            0 0 40px rgba(245, 158, 11, 0.3),
-            inset 0 0 18px rgba(245, 158, 11, 0.25);
+            0 0 22px rgba(245, 158, 11, 0.6),
+            0 0 45px rgba(245, 158, 11, 0.35),
+            inset 0 0 20px rgba(245, 158, 11, 0.3);
         }
         50% {
           border-color: #fbbf24;
           box-shadow: 
-            0 0 32px rgba(245, 158, 11, 0.8),
-            0 0 55px rgba(245, 158, 11, 0.45),
-            inset 0 0 28px rgba(245, 158, 11, 0.35);
+            0 0 35px rgba(245, 158, 11, 0.85),
+            0 0 60px rgba(245, 158, 11, 0.5),
+            inset 0 0 30px rgba(245, 158, 11, 0.4);
         }
       }
 
@@ -156,46 +155,98 @@
           0 0 40px rgba(16, 185, 129, 0.5);
       }
 
-      /* Sky & Sun Dynamic Animations */
-      @keyframes floatGentle {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-5px); }
-      }
-      .animate-float { animation: floatGentle 4s ease-in-out infinite; }
+      /* =========================================================================
+         HYPER-REALISTIC REAL-TIME SKY ANIMATIONS FOR 6-WAQT PRAYER CARDS
+         ========================================================================= */
 
-      @keyframes rayRotate {
+      /* 1. FAJR: Rising golden sun above misty dawn horizon */
+      @keyframes fajrDawnSun {
+        0%, 100% {
+          transform: translateY(16px) scale(0.92);
+          filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.5));
+        }
+        50% {
+          transform: translateY(-2px) scale(1.05);
+          filter: drop-shadow(0 0 30px rgba(245, 158, 11, 0.95));
+        }
+      }
+      .animate-fajr-sun { animation: fajrDawnSun 6s ease-in-out infinite; }
+
+      @keyframes dawnMistSlow {
+        0%, 100% { transform: translateX(-10px) scaleY(1); opacity: 0.35; }
+        50% { transform: translateX(10px) scaleY(1.2); opacity: 0.75; }
+      }
+      .animate-dawn-mist { animation: dawnMistSlow 5s ease-in-out infinite; }
+
+      /* 2. DHUHR: Overhead Midday Bright Sun with rotating rays */
+      @keyframes sunRaysSpin {
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
       }
-      .animate-spin-slow { animation: rayRotate 25s linear infinite; }
+      .animate-dhuhr-rays { animation: sunRaysSpin 22s linear infinite; }
 
-      /* SEHRI & IFTAR ANIMATIONS */
-      @keyframes sehriSunRise {
-        0% { transform: translateY(20px) scale(0.9); filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.4)); }
-        50% { transform: translateY(-3px) scale(1.08); filter: drop-shadow(0 0 35px rgba(245, 158, 11, 0.9)); }
-        100% { transform: translateY(20px) scale(0.9); filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.4)); }
+      @keyframes dhuhrPulse {
+        0%, 100% { transform: scale(1); filter: drop-shadow(0 0 25px rgba(251, 191, 36, 0.8)); }
+        50% { transform: scale(1.08); filter: drop-shadow(0 0 45px rgba(251, 191, 36, 1)); }
       }
-      .animate-sehri-sun { animation: sehriSunRise 6s ease-in-out infinite; }
+      .animate-dhuhr-core { animation: dhuhrPulse 3.5s ease-in-out infinite; }
 
-      @keyframes dawnMistFlow {
-        0%, 100% { transform: translateX(-12px) scaleY(1); opacity: 0.4; }
-        50% { transform: translateX(12px) scaleY(1.2); opacity: 0.8; }
+      /* 3. ASR: Slanted afternoon sunlight with warm ambient shadows */
+      @keyframes asrRaysShimmer {
+        0%, 100% { opacity: 0.55; transform: skewX(-20deg) scaleY(1); }
+        50% { opacity: 0.9; transform: skewX(-20deg) scaleY(1.08); }
       }
-      .animate-dawn-mist { animation: dawnMistFlow 5s ease-in-out infinite; }
+      .animate-asr-rays { animation: asrRaysShimmer 4.5s ease-in-out infinite; }
 
-      @keyframes iftarSunDip {
-        0% { transform: translateY(-6px) scale(1.05); filter: drop-shadow(0 0 30px rgba(244, 63, 94, 0.8)); }
-        50% { transform: translateY(16px) scale(0.92); filter: drop-shadow(0 0 15px rgba(168, 85, 247, 0.6)); }
-        100% { transform: translateY(-6px) scale(1.05); filter: drop-shadow(0 0 30px rgba(244, 63, 94, 0.8)); }
+      /* 4. MAGHRIB: Crimson sunset gently dipping below horizon */
+      @keyframes maghribSunsetDip {
+        0%, 100% {
+          transform: translateY(-4px) scale(1.04);
+          filter: drop-shadow(0 0 28px rgba(244, 63, 94, 0.85));
+        }
+        50% {
+          transform: translateY(18px) scale(0.92);
+          filter: drop-shadow(0 0 16px rgba(168, 85, 247, 0.7));
+        }
       }
-      .animate-iftar-dip { animation: iftarSunDip 6s ease-in-out infinite; }
+      .animate-maghrib-dip { animation: maghribSunsetDip 6s ease-in-out infinite; }
+
+      /* 5. ISHA: Deep starry night sky with twinkling stars and glowing crescent */
+      @keyframes starTwinkleFast {
+        0%, 100% { opacity: 0.2; transform: scale(0.8); }
+        50% { opacity: 1; transform: scale(1.3); }
+      }
+      @keyframes starTwinkleSlow {
+        0%, 100% { opacity: 0.3; transform: scale(0.9); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+      .star-twinkle-1 { animation: starTwinkleFast 2s ease-in-out infinite; }
+      .star-twinkle-2 { animation: starTwinkleSlow 3.5s ease-in-out infinite; }
+      .star-twinkle-3 { animation: starTwinkleFast 2.7s ease-in-out infinite; }
+
+      @keyframes crescentAura {
+        0%, 100% { filter: drop-shadow(0 0 15px rgba(45, 212, 191, 0.5)); transform: translateY(0); }
+        50% { filter: drop-shadow(0 0 30px rgba(45, 212, 191, 0.9)); transform: translateY(-4px); }
+      }
+      .animate-crescent { animation: crescentAura 4s ease-in-out infinite; }
+
+      /* 6. JUMMAH: Illuminated green & gold minaret dome with Noor pulse */
+      @keyframes jummahNoorPulse {
+        0%, 100% {
+          filter: drop-shadow(0 0 18px rgba(16, 185, 129, 0.6)) drop-shadow(0 0 28px rgba(245, 158, 11, 0.4));
+          transform: scale(1);
+        }
+        50% {
+          filter: drop-shadow(0 0 32px rgba(16, 185, 129, 0.95)) drop-shadow(0 0 45px rgba(245, 158, 11, 0.7));
+          transform: scale(1.05);
+        }
+      }
+      .animate-jummah-minaret { animation: jummahNoorPulse 3.5s ease-in-out infinite; }
 
       /* Floating z-index fix */
       .z-floating { z-index: 9999 !important; }
 
-      /* =========================================================================
-         2. PERFECT MOBILE CENTERING & RESPONSIVENESS OVERHAUL
-         ========================================================================= */
+      /* Responsive Layout Containment */
       .app-wrapper {
         width: 100%;
         max-width: 100%;
@@ -206,7 +257,7 @@
 
       .content-container {
         width: 100%;
-        max-width: 80rem; /* max-w-7xl */
+        max-width: 80rem;
         margin-left: auto;
         margin-right: auto;
         box-sizing: border-box;
@@ -217,8 +268,6 @@
           padding-left: 0.75rem !important;
           padding-right: 0.75rem !important;
         }
-
-        /* Force centered vertical stacks */
         .mobile-stack-center {
           display: flex !important;
           flex-direction: column !important;
@@ -228,24 +277,18 @@
           margin-left: auto !important;
           margin-right: auto !important;
         }
-
         .mobile-full-width {
           width: 100% !important;
           max-width: 100% !important;
           margin-left: auto !important;
           margin-right: auto !important;
         }
-
-        /* Clean badges and text wrapping */
-        .mobile-text-center {
-          text-align: center !important;
-        }
       }
     </style>
   </head>
   <body class="islamic-arabesque-texture selection:bg-teal-500/30 selection:text-teal-200">
 
-    <!-- 1. DYNAMIC ISLAMIC BACKGROUND: Soft Glowing Ambient Backdrop (NO STARS) -->
+    <!-- 1. DYNAMIC ISLAMIC BACKGROUND (NO REPEATING STARS - PURE ARABESQUE & CALLIGRAPHY) -->
     <div class="islamic-ambient-backdrop">
       <div id="ambientOrb" class="absolute -top-32 left-1/4 w-[650px] h-[650px] rounded-full blur-[140px] opacity-25 transition-all duration-1000 bg-gradient-to-tr from-cyan-600 via-indigo-900 to-teal-500"></div>
       <div class="absolute top-1/2 -right-32 w-[550px] h-[550px] rounded-full bg-gradient-to-br from-teal-500/15 via-emerald-500/10 to-transparent blur-[130px] pointer-events-none"></div>
@@ -301,14 +344,24 @@
     <!-- APP WRAPPER -->
     <div class="app-wrapper">
       
-      <!-- HEADER BAR (Perfect Mobile Centering & 3-Zone Balance) -->
+      <!-- HEADER BAR WITH CUSTOM GLOWING SVG MOSQUE & MINARET LOGO & AUDIO AZAN BUTTON -->
       <header class="sticky top-0 z-30 w-full acrylic-glass border-b border-teal-500/20 px-3 sm:px-6 lg:px-8 py-3.5 transition-all duration-300">
         <div class="content-container flex flex-col md:flex-row items-center justify-between gap-3 text-center md:text-left">
           
-          <!-- Brand Zone -->
+          <!-- Brand Zone: Custom Glowing SVG Mosque & Minaret Logo -->
           <div class="flex items-center gap-3 shrink-0 justify-center">
-            <div class="w-10 h-10 rounded-xl acrylic-glass border border-teal-400/40 flex items-center justify-center text-teal-300 shadow-[0_0_15px_rgba(45,212,191,0.3)]">
-              <svg class="w-5 h-5 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <div class="w-11 h-11 rounded-xl acrylic-glass border border-teal-400/50 flex items-center justify-center text-teal-300 shadow-[0_0_20px_rgba(45,212,191,0.35)]">
+              <!-- Custom Islamic Mosque & Minaret Vector SVG -->
+              <svg class="w-6 h-6 text-teal-300 filter drop-shadow-[0_0_6px_#2dd4bf]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3c-1.5 2-4 3.5-4 6v12h8V9c0-2.5-2.5-4-4-6z"/>
+                <path d="M4 11v10h4V11a2 2 0 0 0-4 0z"/>
+                <path d="M16 11v10h4V11a2 2 0 0 0-4 0z"/>
+                <path d="M12 2v1"/>
+                <path d="M6 8v3"/>
+                <path d="M18 8v3"/>
+                <path d="M10 17h4v4h-4z"/>
+                <circle cx="12" cy="13" r="1" fill="#f59e0b"/>
+              </svg>
             </div>
             <div>
               <h1 class="text-lg sm:text-xl font-bold tracking-tight text-white whitespace-nowrap">বাইতুন নূর জামে মসজিদ</h1>
@@ -327,8 +380,16 @@
             <a href="#mosque-info" class="hover:text-teal-300 transition-colors whitespace-nowrap">মসজিদ পরিচিতি</a>
           </nav>
 
-          <!-- Action Controls -->
+          <!-- Action Controls with Explicit "🕌 আজান প্লেয়ার | অন/অফ" Button -->
           <div class="flex items-center gap-2 sm:gap-2.5 shrink-0 justify-center">
+            
+            <!-- TOP-NAV ACRYLIC GLASS AUDIO AZAN TOGGLE BUTTON (Strict Requirement) -->
+            <button id="audioAzanPlayerBtn" onclick="toggleAudio()" class="px-3 py-1.5 rounded-lg acrylic-glass border border-teal-400/40 text-teal-200 hover:border-teal-300 text-xs font-bold flex items-center gap-1.5 transition-all shadow-[0_0_15px_rgba(45,212,191,0.2)]">
+              <span>🕌</span>
+              <span id="audioAzanBtnLabel">আজান প্লেয়ার | অফ</span>
+              <span id="audioWaveIndicator" class="hidden w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+            </button>
+
             <button onclick="openModal('ramadanModal')" class="px-2.5 sm:px-3 py-1.5 rounded-lg acrylic-glass border border-amber-400/40 text-amber-300 hover:border-amber-300 text-xs font-semibold flex items-center gap-1.5">
               <span>🌙</span><span class="hidden sm:inline">সেহরি ও ইফতার</span>
             </button>
@@ -337,9 +398,6 @@
             </button>
             <button onclick="openModal('qiblaModal')" class="p-2 rounded-lg acrylic-glass border border-teal-400/30 text-teal-300 hover:border-teal-400" title="ক্বিবলা দিক">
               <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
-            </button>
-            <button id="audioToggleBtn" onclick="toggleAudio()" class="p-2 rounded-lg acrylic-glass border border-slate-700 text-slate-400 hover:text-slate-200" title="আযান সাউন্ড">
-              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
             </button>
             <button id="ambientToggleBtn" onclick="toggleAmbient()" class="p-2 rounded-lg acrylic-glass border border-teal-400/30 text-amber-300 hover:border-amber-400" title="দিবা/রাত্রি আলো">
               <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -359,7 +417,7 @@
             <div class="lg:col-span-7 space-y-4 mobile-stack-center">
               <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full acrylic-glass border border-teal-400/30 text-teal-300 text-xs font-semibold mx-auto lg:mx-0">
                 <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-                <span>লক্ষ্মীপুর লাইভ ওয়াক্ত, সেহরি-ইফতার ও আবহাওয়া</span>
+                <span>লক্ষ্মীপুর লাইভ ওয়াক্ত (GMT+6), সেহরি-ইফতার ও আবহাওয়া</span>
               </div>
               <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
                 বাইতুন নূর <span class="neon-glow-cyan text-teal-300">জামে মসজিদ</span>
@@ -388,7 +446,7 @@
                 <span class="text-xs uppercase tracking-widest text-amber-300 font-bold">পরবর্তী সালাত</span>
                 <div class="my-2">
                   <h3 id="nextPrayerName" class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">যোহর <span class="text-amber-400 text-lg sm:text-xl font-normal">(الظهر)</span></h3>
-                  <p id="nextPrayerTimes" class="text-xs text-slate-300 mt-1">আজান: <span class="font-semibold text-teal-300">১১:৫৫ দুপুর</span> · জামাত: <span class="font-semibold text-amber-300">০১:১৫ দুপুর</span></p>
+                  <p id="nextPrayerTimes" class="text-xs text-slate-300 mt-1">আজান: <span class="font-semibold text-teal-300">১২:১৫ দুপুর</span> · জামাত: <span class="font-semibold text-amber-300">০১:১৫ দুপুর</span></p>
                 </div>
                 <div class="mt-4 p-3 rounded-xl bg-slate-950/70 border border-teal-500/35 flex items-center justify-center gap-2">
                   <span class="text-xs text-slate-400">বাকি সময়:</span>
@@ -402,8 +460,8 @@
         </section>
 
         <!-- =========================================================================
-             3. UPDATED PRAYER SCHEDULE HEADER (STRICT REQUIREMENT)
-             "দৈনিক পাঁচ ওয়াক্ত সালাতের এবং জুমআর সময়সূচী"
+             2. PRAYER SCHEDULE SECTION: "দৈনিক পাঁচ ওয়াক্ত সালাতের এবং জুমআর সময়সূচী"
+             WITH HYPER-REALISTIC SKY ANIMATED MIHRAB CARDS
              ========================================================================= -->
         <section id="prayer-times" class="space-y-6 w-full">
           <div class="text-center max-w-3xl mx-auto space-y-2 px-2">
@@ -411,7 +469,6 @@
               <span>✨</span><span>এক্রাইলিক গ্লাস ও লাইভ নিওন সালাত সময়সূচি</span>
             </div>
             
-            <!-- STRICT SECTION TITLE REQUIRED BY USER -->
             <h2 class="text-xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-snug">
               <span class="neon-glow-gold text-amber-400">দৈনিক পাঁচ ওয়াক্ত সালাতের এবং জুমআর সময়সূচী</span>
             </h2>
@@ -428,9 +485,9 @@
               </div>
             </div>
 
-            <!-- 6-Waqt Cards Grid (Fully Centered Single Column on Mobile, 2 on SM, 3 on LG, 6 on XL) -->
+            <!-- 6-Waqt Cards Grid with Hyper-Realistic Animated Sky Views -->
             <div id="prayerCardsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-3.5 sm:gap-5 w-full">
-              <!-- Dynamically populated by JS -->
+              <!-- Dynamically populated by JS with hyper-realistic animated sky engines -->
             </div>
 
             <div class="mt-6 sm:mt-8 text-center pt-4 border-t border-white/10 flex flex-wrap items-center justify-center gap-3 text-xs text-slate-400 px-2">
@@ -463,7 +520,7 @@
                 </div>
                 <div class="p-3.5 rounded-2xl acrylic-glass border border-teal-400/30 text-center">
                   <span class="text-[11px] text-slate-400 block">ইফতারের সময়</span>
-                  <span class="text-base sm:text-xl font-extrabold text-teal-300 font-mono">০৫:১৮ সন্ধ্যা</span>
+                  <span class="text-base sm:text-xl font-extrabold text-teal-300 font-mono">০৫:২৫ সন্ধ্যা</span>
                 </div>
                 <div class="p-3.5 rounded-2xl acrylic-glass border border-emerald-400/30 text-center">
                   <span id="ramadanBannerPhaseLabel" class="text-[11px] text-slate-400 block">ইফতারের বাকি সময়</span>
@@ -494,7 +551,7 @@
                 <span>🛰️</span><span>ওপেন-মেটিও লাইভ স্যাটেলাইট আবহাওয়া ডাটাবেজ</span>
               </div>
               <h2 class="text-xl sm:text-3xl font-extrabold text-white tracking-tight mt-1">
-                লক্ষ্মীপুর <span className="neon-glow-cyan text-teal-300">৭ দিনের রিয়েল-টাইম</span> আবহাওয়া
+                লক্ষ্মীপুর <span class="neon-glow-cyan text-teal-300">৭ দিনের রিয়েল-টাইম</span> আবহাওয়া
               </h2>
               <p class="text-xs sm:text-sm text-slate-400">অক্ষাংশ: ২৩.০১৩৪° উত্তর | দ্রাঘিমাংশ: ৯০.৮৭১৫° পূর্ব (দালাল বাজার, লক্ষ্মীপুর)</p>
             </div>
@@ -627,7 +684,7 @@
 
       </main>
 
-      <!-- DEVELOPER FOOTER BRANDING (Section 4 Specification) -->
+      <!-- DEVELOPER FOOTER BRANDING (Section 5 Specification) -->
       <footer class="w-full mt-12 sm:mt-16 py-8 sm:py-10 px-4 acrylic-glass border-t border-teal-500/30 text-center relative z-20 shadow-[0_-10px_40px_rgba(45,212,191,0.1)]">
         <div class="max-w-4xl mx-auto space-y-3">
           <div class="flex items-center justify-center gap-2 text-xs font-semibold text-slate-400">
@@ -647,6 +704,70 @@
     </div>
 
     <!-- ================= FULL-SCREEN POPUP MODALS ================= -->
+
+    <!-- =========================================================================
+         AUTO ENTRANCE WELCOME & LIVE PRAYER STATUS POPUP (ON PAGE LOAD)
+         ========================================================================= -->
+    <div id="entranceModal" class="fixed inset-0 z-floating hidden flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-3xl">
+      <div class="relative w-full max-w-lg rounded-3xl acrylic-glass border-2 border-amber-400/60 p-6 sm:p-8 shadow-[0_0_80px_rgba(245,158,11,0.45)] space-y-6 text-center animate-float">
+        
+        <!-- Modal Crest: Glowing Mosque SVG -->
+        <div class="flex justify-center -mt-2">
+          <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-amber-500/20 via-teal-500/20 to-emerald-500/20 border-2 border-amber-400/50 flex items-center justify-center shadow-[0_0_30px_rgba(245,158,11,0.4)]">
+            <svg class="w-9 h-9 text-amber-300 filter drop-shadow-[0_0_8px_#f59e0b]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3c-1.5 2-4 3.5-4 6v12h8V9c0-2.5-2.5-4-4-6z"/>
+              <path d="M4 11v10h4V11a2 2 0 0 0-4 0z"/>
+              <path d="M16 11v10h4V11a2 2 0 0 0-4 0z"/>
+              <path d="M12 2v1"/>
+              <circle cx="12" cy="13" r="1" fill="#2dd4bf"/>
+            </svg>
+          </div>
+        </div>
+
+        <div>
+          <span class="text-xs uppercase tracking-widest text-amber-300 font-bold block mb-1">
+            স্বাগতম · বাইতুন নূর জামে মসজিদ
+          </span>
+          <h3 class="text-xl sm:text-2xl font-black text-white tracking-tight">
+            কামন খোলা, দালাল বাজার, লক্ষ্মীপুর
+          </h3>
+          <p class="text-xs text-teal-300/80 mt-1">
+            বাংলাদেশ প্রমাণ সময় (GMT+6) সাপেক্ষ লাইভ সালাত বুলেটিন
+          </p>
+        </div>
+
+        <!-- Ongoing Waqt Status Banner -->
+        <div class="p-4 rounded-2xl bg-gradient-to-b from-amber-500/15 via-slate-950/80 to-slate-950/90 border border-amber-400/50 shadow-[inset_0_0_20px_rgba(245,158,11,0.15)]">
+          <span class="text-xs text-amber-300 font-semibold uppercase tracking-wider block">চলমান ওয়াক্ত</span>
+          <div id="entranceOngoingWaqtText" class="text-lg sm:text-xl font-extrabold text-white my-1">
+            🕌 বর্তমানে ফজর-এর ওয়াক্ত চলতেছে
+          </div>
+          <div id="entranceOngoingTimeSpan" class="text-xs text-slate-300">
+            আজান: ০৫:০০ ভোর · জামাত: ০৫:৩০ ভোর
+          </div>
+        </div>
+
+        <!-- Next Waqt Live Countdown Banner -->
+        <div class="p-4 rounded-2xl bg-slate-950/80 border border-teal-400/40">
+          <span class="text-xs text-teal-300 font-semibold uppercase tracking-wider block">আসন্ন সালাত</span>
+          <div id="entranceNextWaqtCountdownText" class="text-base sm:text-lg font-bold text-teal-200 font-mono my-1">
+            ⏳ আর ৫ ঘণ্টা ২৫ মিনিট পর যোহর-এর ওয়াক্ত শুরু হবে
+          </div>
+        </div>
+
+        <!-- Dismiss / Enter Button -->
+        <div class="pt-1 flex flex-col sm:flex-row gap-2.5">
+          <button onclick="closeEntranceModal()" class="flex-1 py-3 px-5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-400 text-slate-950 font-extrabold text-xs sm:text-sm hover:from-amber-400 hover:to-amber-300 shadow-[0_0_25px_rgba(245,158,11,0.5)] transition-all active:scale-95">
+            প্রবেশ করুন ও সময়সূচী দেখুন
+          </button>
+          <button onclick="toggleAudio(); closeEntranceModal();" class="py-3 px-4 rounded-xl acrylic-glass border border-teal-400/40 text-teal-300 hover:border-teal-300 font-bold text-xs flex items-center justify-center gap-1.5 transition-all">
+            <span>🔊</span>
+            <span>আজান শুনুন</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
 
     <!-- 1. FULL-SCREEN SEHRI & IFTAR RAMADAN MODAL -->
     <div id="ramadanModal" class="fixed inset-0 z-floating hidden flex items-center justify-center p-3 sm:p-4 bg-black/80 backdrop-blur-3xl">
@@ -755,7 +876,7 @@
         <div class="py-2">
           <span class="text-xs uppercase tracking-widest text-teal-300 font-bold">আসন্ন ওয়াক্ত</span>
           <h3 id="modalAdhanWaqtName" class="text-2xl sm:text-3xl font-extrabold text-white mt-1">যোহর (الظهر)</h3>
-          <p id="modalAdhanTimes" class="text-xs text-slate-300 mt-1">আজান: <b class="text-teal-300">১১:৫৫ দুপুর</b> · জামাত: <b class="text-amber-300">০১:১৫ দুপুর</b></p>
+          <p id="modalAdhanTimes" class="text-xs text-slate-300 mt-1">আজান: <b class="text-teal-300">১২:১৫ দুপুর</b> · জামাত: <b class="text-amber-300">০১:১৫ দুপুর</b></p>
         </div>
         <div class="p-4 rounded-2xl bg-slate-950/70 border border-teal-400/30">
           <span class="text-xs text-slate-400 block">আজানের বাকি সময়</span>
@@ -841,17 +962,28 @@
         if (el) el.classList.add('hidden');
       }
 
-      // Audio simulator
+      function closeEntranceModal() {
+        closeModal('entranceModal');
+      }
+
+      // Audio simulator & Top-Nav "🕌 আজান প্লেয়ার | অন/অফ"
       let isAudioOn = false;
       function toggleAudio() {
         isAudioOn = !isAudioOn;
-        const btn = document.getElementById('audioToggleBtn');
+        const btn = document.getElementById('audioAzanPlayerBtn');
+        const label = document.getElementById('audioAzanBtnLabel');
+        const indicator = document.getElementById('audioWaveIndicator');
+
         if (isAudioOn) {
-          btn.classList.add('border-emerald-400', 'text-emerald-300');
+          btn.classList.add('border-emerald-400', 'text-emerald-300', 'shadow-[0_0_20px_rgba(16,185,129,0.4)]');
+          label.textContent = 'আজান প্লেয়ার | অন';
+          if (indicator) indicator.classList.remove('hidden');
           playAzanSound();
         } else {
-          btn.classList.remove('border-emerald-400', 'text-emerald-300');
-          showToast('আযান সাউন্ড মিউট করা হয়েছে');
+          btn.classList.remove('border-emerald-400', 'text-emerald-300', 'shadow-[0_0_20px_rgba(16,185,129,0.4)]');
+          label.textContent = 'আজান প্লেয়ার | অফ';
+          if (indicator) indicator.classList.add('hidden');
+          showToast('আজান প্লেয়ার বন্ধ করা হয়েছে');
         }
       }
 
@@ -871,7 +1003,7 @@
           gain.connect(audioCtx.destination);
           osc.start();
           osc.stop(audioCtx.currentTime + 3.6);
-          showToast('সালাতের আযান বার্তা প্রতিধ্বনি হচ্ছে...');
+          showToast('সালাতের আযান ধ্বনি প্রতিধ্বনি হচ্ছে...');
         } catch(e) {
           showToast('সালাতের আযান বার্তা সক্রিয়');
         }
@@ -906,22 +1038,83 @@
         }
       }
 
-      // Prayer dataset
-      const prayers = [
-        { id: 'fajr', nameBn: 'ফজর', nameEn: 'Fajr', nameAr: 'الفجر', azan: '05:00', jamaat: '05:30', startMin: 5*60, endMin: 6*60+20, desc: 'সুবেহ সাদিক হতে সূর্যোদয় পর্যন্ত', reward: 'যে ব্যক্তি ফজর জামাতে আদায় করল, সে যেন সারারাত সালাত আদায় করল।' },
-        { id: 'dhuhr', nameBn: 'যোহর', nameEn: 'Dhuhr', nameAr: 'الظهر', azan: '11:55', jamaat: '01:15', startMin: 11*60+55, endMin: 15*60+54, desc: 'সূর্য মধ্যাকাশ হতে পশ্চিমাকাশে ঢলার পর', reward: 'যোহরের পূর্বে ৪ রাকাত সালাত আদায়কারীকে জাহান্নামের আগুন স্পর্শ করবে না।' },
-        { id: 'asr', nameBn: 'আসর', nameEn: 'Asr', nameAr: 'العصر', azan: '03:55', jamaat: '04:30', startMin: 15*60+55, endMin: 17*60+17, desc: 'সূর্য রক্তিম হওয়ার পূর্ব মুহূর্ত পর্যন্ত', reward: 'যে ব্যক্তি দুই শীতল সময়ের (ফজর ও আসর) সালাত আদায় করবে, সে জান্নাতে প্রবেশ করবে।' },
-        { id: 'maghrib', nameBn: 'মাগরিব', nameEn: 'Maghrib', nameAr: 'المغرب', azan: '05:18', jamaat: '05:25', startMin: 17*60+18, endMin: 18*60+39, desc: 'সূর্যাস্তের ঠিক পর হতে পশ্চিমাকাশের লাল আভা থাকা পর্যন্ত', reward: 'মাগরিবের পর যে ব্যক্তি ৬ রাকাত আওয়াবিন সালাত আদায় করে, তার ১২ বছরের ইবাদতের সওয়াব লাভ হয়।' },
-        { id: 'isha', nameBn: 'এশা', nameEn: 'Isha', nameAr: 'العشاء', azan: '06:40', jamaat: '07:45', startMin: 18*60+40, endMin: 24*60, desc: 'লাল আভা বিলীন হওয়া হতে মধ্যরাত পর্যন্ত', reward: 'এশা ও ফজরের সালাত মুনাফিকদের জন্য সর্বাধিক ভারী; এর গুরুত্ব অপরিসীম।' },
-        { id: 'jummah', nameBn: 'জুমা', nameEn: 'Jummah', nameAr: 'الجمعة', azan: '12:00', jamaat: '01:30', startMin: 11*60+55, endMin: 14*60, desc: 'সাপ্তাহিক শ্রেষ্ঠ দিন - খুৎবা ও জামাত', reward: 'জুমার দিন এমন একটি মুহূর্ত রয়েছে, যাতে বান্দা যা প্রার্থনা করে আল্লাহ তা কবুল করেন।', isFridaySpecial: true }
-      ];
+      // Helper to retrieve strict Bangladesh Standard Time (Asia/Dhaka GMT+6) worldwide
+      function getDhakaTime(date = new Date()) {
+        const formatter = new Intl.DateTimeFormat('en-US', {
+          timeZone: 'Asia/Dhaka',
+          year: 'numeric',
+          month: 'numeric',
+          day: 'numeric',
+          hour: 'numeric',
+          minute: 'numeric',
+          second: 'numeric',
+          hour12: false,
+          weekday: 'short'
+        });
+        const parts = formatter.formatToParts(date);
+        const partMap = {};
+        for (let i = 0; i < parts.length; i++) {
+          partMap[parts[i].type] = parts[i].value;
+        }
+        let hour = parseInt(partMap.hour || '0', 10);
+        if (hour === 24) hour = 0;
+        const minute = parseInt(partMap.minute || '0', 10);
+        const second = parseInt(partMap.second || '0', 10);
+        const isFriday = partMap.weekday === 'Fri';
+        const totalMinutes = hour * 60 + minute;
 
-      function formatTime12Bn(time24) {
-        const [hStr, mStr] = time24.split(':');
-        const h = parseInt(hStr, 10);
-        const displayH = h % 12 || 12;
-        return `${toBn(displayH)}:${toBn(mStr)} ${h >= 12 ? (h >= 17 ? 'সন্ধ্যা' : 'দুপুর') : (h < 6 ? 'ভোর' : 'সকাল')}`;
+        return {
+          year: parseInt(partMap.year, 10),
+          month: parseInt(partMap.month, 10),
+          day: parseInt(partMap.day, 10),
+          hour,
+          minute,
+          second,
+          isFriday,
+          totalMinutes
+        };
       }
+
+      // Accurate 12-hour Bengali Time Period Suffix Logic:
+      // 04:00 AM - 05:59 AM -> "ভোর" (e.g., ফজর ৫:০০ ভোর, জামাত ৫:৩০ ভোর)
+      // 06:00 AM - 11:59 AM -> "সকাল" (e.g., সকাল ১০:০০)
+      // 12:00 PM - 03:29 PM -> "দুপুর" (e.g., যোহর ১২:১৫ দুপুর, জামাত ১:১৫ দুপুর)
+      // 03:30 PM - 05:15 PM -> "বিকাল" (e.g., আসর ৩:৪৫ বিকাল, জামাত ৪:১৫ বিকাল)
+      // 05:16 PM - 06:45 PM -> "সন্ধ্যা" (e.g., মাগরিব ৫:২৫ সন্ধ্যা, জামাত ৫:৩৫ সন্ধ্যা)
+      // 06:46 PM - 03:59 AM -> "রাত" (e.g., এশা ৬:৪৫ রাত, জামাত ৭:৪৫ রাত)
+      function getTimePeriodBn(h, m = 0) {
+        const totalMin = h * 60 + m;
+        if (totalMin >= 4 * 60 && totalMin < 6 * 60) return 'ভোর';
+        if (totalMin >= 6 * 60 && totalMin < 12 * 60) return 'সকাল';
+        if (totalMin >= 12 * 60 && totalMin < 15 * 60 + 30) return 'দুপুর';
+        if (totalMin >= 15 * 60 + 30 && totalMin <= 17 * 60 + 15) return 'বিকাল';
+        if (totalMin >= 17 * 60 + 16 && totalMin <= 18 * 60 + 45) {
+          if (totalMin === 18 * 60 + 45) return 'রাত'; // 6:45 PM is Isha night
+          return 'সন্ধ্যা';
+        }
+        return 'রাত';
+      }
+
+      function formatTime12Bn(timeStr) {
+        if (!timeStr) return '';
+        const parts = timeStr.split(':');
+        let h = parseInt(parts[0], 10);
+        const m = parseInt(parts[1] || '0', 10);
+        
+        const period = getTimePeriodBn(h, m);
+        const displayH = h % 12 || 12;
+        return `${toBn(displayH)}:${toBn(String(m).padStart(2, '0'))} ${period}`;
+      }
+
+      // Bangladesh Standard Time (Asia/Dhaka GMT+6) 6-Waqt Prayer Dataset (24-Hour Base)
+      const prayers = [
+        { id: 'fajr', nameBn: 'ফজর', nameEn: 'Fajr', nameAr: 'الفجر', azan: '05:00', jamaat: '05:30', desc: 'সুবেহ সাদিক হতে সূর্যোদয় পর্যন্ত', reward: 'যে ব্যক্তি ফজর জামাতে আদায় করল, সে যেন সারারাত সালাত আদায় করল।' },
+        { id: 'dhuhr', nameBn: 'যোহর', nameEn: 'Dhuhr', nameAr: 'الظهر', azan: '12:15', jamaat: '13:15', desc: 'সূর্য মধ্যাকাশ হতে পশ্চিমাকাশে ঢলার পর', reward: 'যোহরের পূর্বে ৪ রাকাত সালাত আদায়কারীকে জাহান্নামের আগুন স্পর্শ করবে না।' },
+        { id: 'asr', nameBn: 'আসর', nameEn: 'Asr', nameAr: 'العصر', azan: '15:45', jamaat: '16:15', desc: 'সূর্য রক্তিম হওয়ার পূর্ব মুহূর্ত পর্যন্ত', reward: 'যে ব্যক্তি দুই শীতল সময়ের (ফজর ও আসর) সালাত আদায় করবে, সে জান্নাতে প্রবেশ করবে।' },
+        { id: 'maghrib', nameBn: 'মাগরিব', nameEn: 'Maghrib', nameAr: 'المغرب', azan: '17:25', jamaat: '17:35', desc: 'সূর্যাস্তের ঠিক পর হতে পশ্চিমাকাশের লাল আভা থাকা পর্যন্ত', reward: 'মাগরিবের পর যে ব্যক্তি ৬ রাকাত আওয়াবিন সালাত আদায় করে, তার ১২ বছরের ইবাদতের সওয়াব লাভ হয়।' },
+        { id: 'isha', nameBn: 'এশা', nameEn: 'Isha', nameAr: 'العشاء', azan: '18:45', jamaat: '19:45', desc: 'লাল আভা বিলীন হওয়া হতে মধ্যরাত পর্যন্ত', reward: 'এশা ও ফজরের সালাত মুনাফিকদের জন্য সর্বাধিক ভারী; এর গুরুত্ব অপরিসীম।' },
+        { id: 'jummah', nameBn: 'জুমা', nameEn: 'Jummah', nameAr: 'الجمعة', azan: '12:00', jamaat: '13:30', desc: 'সাপ্তাহিক শ্রেষ্ঠ দিন - খুৎবা ও জামাত', reward: 'জুমার দিন এমন একটি মুহূর্ত রয়েছে, যাতে বান্দা যা প্রার্থনা করে আল্লাহ তা কবুল করেন।', isFridaySpecial: true }
+      ];
 
       // Quranic Verses Dataset
       const verses = [
@@ -1020,53 +1213,56 @@
         updateClockAndPrayers();
       }
 
-      // Main Clock and Schedule Engine
+      // Main Clock and Schedule Engine (Strict BD Time GMT+6)
       function updateClockAndPrayers() {
         const now = new Date();
-        const nowMinutes = now.getHours() * 60 + now.getMinutes();
-        const currentSeconds = now.getSeconds();
-        const isFriday = now.getDay() === 5;
+        const dhaka = getDhakaTime(now);
+        const nowMinutes = dhaka.totalMinutes;
+        const currentSeconds = dhaka.second;
+        const isFriday = dhaka.isFriday;
 
-        // Bengali Date & Time Strings
+        // Bengali Date & Time Strings in Asia/Dhaka
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Dhaka' };
         document.getElementById('heroDateDisplay').textContent = new Intl.DateTimeFormat('bn-BD', options).format(now);
 
-        const h = now.getHours();
-        const m = now.getMinutes();
-        const s = now.getSeconds();
-        const period = h >= 12 ? 'অপরাহ্ন' : 'পূর্বাহ্ন';
-        const displayH = h % 12 || 12;
-        document.getElementById('heroTimeDisplay').textContent = `${toBn(String(displayH).padStart(2,'0'))}:${toBn(String(m).padStart(2,'0'))}:${toBn(String(s).padStart(2,'0'))} ${period}`;
+        const displayH = dhaka.hour % 12 || 12;
+        const period = getTimePeriodBn(dhaka.hour, dhaka.minute);
+        document.getElementById('heroTimeDisplay').textContent = `${toBn(String(displayH).padStart(2,'0'))}:${toBn(String(dhaka.minute).padStart(2,'0'))}:${toBn(String(dhaka.second).padStart(2,'0'))} ${period}`;
 
-        // Active and Next Waqt
+        // Active and Next Waqt Calculation (Strict Lakshmipur Schedule GMT+6)
+        // Fajr: 05:00 AM (300m) to 11:59 AM (719m)
+        // Dhuhr/Jummah: 12:00 PM (720m) to 03:44 PM (944m)
+        // Asr: 03:45 PM (945m) to 05:14 PM (1034m)
+        // Maghrib: 05:15 PM (1035m) to 06:44 PM (1124m) -> covers 5:15 PM - 6:30 PM BD time strictly as Maghrib
+        // Isha: 06:45 PM (1125m) to 04:59 AM (299m)
         let activeId = 'isha';
         let nextId = 'fajr';
-        let targetStart = 5 * 60; // Fajr next day
+        let targetStart = 5 * 60; // 05:00 AM Fajr
 
-        if (nowMinutes >= 5*60 && nowMinutes < 11*60+55) {
+        if (nowMinutes >= 5 * 60 && nowMinutes < 12 * 60) {
           activeId = 'fajr';
           nextId = isFriday ? 'jummah' : 'dhuhr';
-          targetStart = 11*60+55;
-        } else if (nowMinutes >= 11*60+55 && nowMinutes < 15*60+55) {
+          targetStart = isFriday ? 12 * 60 : (12 * 60 + 15);
+        } else if (nowMinutes >= 12 * 60 && nowMinutes < 15 * 60 + 45) {
           activeId = isFriday ? 'jummah' : 'dhuhr';
           nextId = 'asr';
-          targetStart = 15*60+55;
-        } else if (nowMinutes >= 15*60+55 && nowMinutes < 17*60+18) {
+          targetStart = 15 * 60 + 45;
+        } else if (nowMinutes >= 15 * 60 + 45 && nowMinutes < 17 * 60 + 15) {
           activeId = 'asr';
           nextId = 'maghrib';
-          targetStart = 17*60+18;
-        } else if (nowMinutes >= 17*60+18 && nowMinutes < 18*60+40) {
+          targetStart = 17 * 60 + 25;
+        } else if (nowMinutes >= 17 * 60 + 15 && nowMinutes < 18 * 60 + 45) {
           activeId = 'maghrib';
           nextId = 'isha';
-          targetStart = 18*60+40;
-        } else if (nowMinutes >= 18*60+40) {
+          targetStart = 18 * 60 + 45;
+        } else if (nowMinutes >= 18 * 60 + 45) {
           activeId = 'isha';
           nextId = 'fajr';
-          targetStart = 24*60 + 5*60;
+          targetStart = 24 * 60 + 5 * 60;
         } else {
           activeId = 'isha';
           nextId = 'fajr';
-          targetStart = 5*60;
+          targetStart = 5 * 60;
         }
 
         let diffSec = (targetStart * 60) - (nowMinutes * 60 + currentSeconds);
@@ -1075,6 +1271,7 @@
         const diffM = Math.floor((diffSec % 3600) / 60);
         const diffS = diffSec % 60;
 
+        const activeObj = prayers.find(p => p.id === activeId) || prayers[0];
         const nextObj = prayers.find(p => p.id === nextId) || prayers[0];
 
         let cdFull = diffH > 0 ? `${toBn(diffH)} ঘণ্টা ${toBn(diffM)} মিনিট ${toBn(diffS)} সেকেন্ড` : `${toBn(diffM)} মিনিট ${toBn(diffS)} সেকেন্ড`;
@@ -1095,7 +1292,24 @@
         document.getElementById('modalAdhanTimes').innerHTML = `আজান: <b class="text-teal-300">${formatTime12Bn(nextObj.azan)}</b> · জামাত: <b class="text-amber-300">${formatTime12Bn(nextObj.jamaat)}</b>`;
         document.getElementById('modalAdhanCountdown').textContent = cdFull;
 
-        // Render 6-Waqt Cards (Clean, perfectly centered without star textures)
+        // Auto Entrance Welcome Modal Updates
+        const entranceOngoing = document.getElementById('entranceOngoingWaqtText');
+        const entranceOngoingTime = document.getElementById('entranceOngoingTimeSpan');
+        const entranceNextCd = document.getElementById('entranceNextWaqtCountdownText');
+
+        if (entranceOngoing) {
+          entranceOngoing.textContent = `🕌 বর্তমানে ${activeObj.nameBn}-এর ওয়াক্ত চলতেছে`;
+        }
+        if (entranceOngoingTime) {
+          entranceOngoingTime.textContent = `আজান: ${formatTime12Bn(activeObj.azan)} · জামাত: ${formatTime12Bn(activeObj.jamaat)}`;
+        }
+        if (entranceNextCd) {
+          entranceNextCd.textContent = `⏳ আর ${cdFull} পর ${nextObj.nameBn}-এর ওয়াক্ত শুরু হবে`;
+        }
+
+        // =========================================================================
+        // RENDER 6-WAQT MIHRAB CARDS WITH HYPER-REALISTIC SKY ANIMATIONS
+        // =========================================================================
         const grid = document.getElementById('prayerCardsGrid');
         if (grid && (!grid.dataset.rendered || grid.dataset.active !== activeId)) {
           grid.dataset.rendered = 'true';
@@ -1104,47 +1318,125 @@
             const isActive = activeId === p.id;
             const isJummah = p.isFridaySpecial;
             
-            let animContent = '';
+            let skyAnimationEngine = '';
+
+            // 1. FAJR: Real-time dawn breaking visual featuring soft gradual rising golden sun above misty blue horizon
             if (p.id === 'fajr') {
-              animContent = `
-                <div class="w-full h-full relative flex items-center justify-center overflow-hidden bg-gradient-to-t from-amber-950/70 via-slate-900/50 to-cyan-950/40">
-                  <div class="absolute bottom-4 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-amber-400/80 to-transparent"></div>
-                  <div class="absolute bottom-2 w-12 h-12 rounded-full bg-amber-400 blur-sm opacity-90 shadow-[0_0_30px_#f59e0b]"></div>
-                  <div class="text-3xl relative z-10 animate-float">🌅</div>
+              skyAnimationEngine = `
+                <div class="w-full h-full relative flex items-center justify-center overflow-hidden bg-gradient-to-t from-[#451a03] via-[#0f172a] to-[#082f49]">
+                  <!-- Dawn Sky Ambient Light -->
+                  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(245,158,11,0.35)_0,transparent_75%)]"></div>
+                  <!-- Mist Layers -->
+                  <div class="absolute bottom-4 -left-8 -right-8 h-8 bg-gradient-to-r from-transparent via-amber-200/25 to-transparent blur-sm animate-dawn-mist"></div>
+                  <div class="absolute bottom-1 -left-8 -right-8 h-6 bg-gradient-to-r from-transparent via-teal-200/20 to-transparent blur-sm animate-dawn-mist" style="animation-delay: 2.5s;"></div>
+                  <!-- Horizon Line -->
+                  <div class="absolute bottom-6 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-amber-400 to-transparent opacity-90 shadow-[0_0_12px_#f59e0b]"></div>
+                  <!-- Rising Golden Sun -->
+                  <div class="relative z-10 flex flex-col items-center animate-fajr-sun">
+                    <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-amber-500 via-amber-400 to-yellow-100 shadow-[0_0_35px_rgba(245,158,11,1)] flex items-center justify-center">
+                      <div class="w-7 h-7 rounded-full bg-yellow-200 blur-[1px]"></div>
+                    </div>
+                  </div>
                 </div>
               `;
-            } else if (p.id === 'dhuhr') {
-              animContent = `
-                <div class="w-full h-full relative flex items-center justify-center overflow-hidden bg-gradient-to-b from-amber-500/15 via-cyan-500/10 to-transparent">
-                  <div class="w-16 h-16 rounded-full border border-dashed border-amber-300/40 animate-spin-slow absolute"></div>
-                  <div class="text-3xl text-amber-300 relative z-10 animate-pulse shadow-[0_0_35px_#f59e0b]">☀️</div>
+            } 
+            // 2. DHUHR: Midday bright sun positioned high in the sky with rotating and glowing vector sun rays
+            else if (p.id === 'dhuhr') {
+              skyAnimationEngine = `
+                <div class="w-full h-full relative flex items-center justify-center overflow-hidden bg-gradient-to-b from-[#0284c7] via-[#0369a1] to-[#0f172a]">
+                  <!-- Zenith Sky Glow -->
+                  <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(251,191,36,0.35)_0,transparent_65%)]"></div>
+                  <!-- Rotating Glowing Vector Sun Rays -->
+                  <div class="w-24 h-24 absolute animate-dhuhr-rays opacity-80">
+                    <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" class="w-full h-full text-amber-300">
+                      <line x1="50" y1="5" x2="50" y2="20" stroke-width="3" stroke-linecap="round" />
+                      <line x1="50" y1="80" x2="50" y2="95" stroke-width="3" stroke-linecap="round" />
+                      <line x1="5" y1="50" x2="20" y2="50" stroke-width="3" stroke-linecap="round" />
+                      <line x1="80" y1="50" x2="95" y2="50" stroke-width="3" stroke-linecap="round" />
+                      <line x1="18" y1="18" x2="29" y2="29" stroke-width="2.5" stroke-linecap="round" />
+                      <line x1="71" y1="71" x2="82" y2="82" stroke-width="2.5" stroke-linecap="round" />
+                      <line x1="18" y1="82" x2="29" y2="71" stroke-width="2.5" stroke-linecap="round" />
+                      <line x1="71" y1="29" x2="82" y2="18" stroke-width="2.5" stroke-linecap="round" />
+                    </svg>
+                  </div>
+                  <!-- Overhead Bright Sun Core -->
+                  <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-amber-400 via-yellow-200 to-white animate-dhuhr-core relative z-10 shadow-[0_0_40px_#fbbf24]"></div>
                 </div>
               `;
-            } else if (p.id === 'asr') {
-              animContent = `
-                <div class="w-full h-full relative flex items-center justify-center overflow-hidden bg-gradient-to-tr from-amber-900/40 via-slate-900 to-amber-700/25">
-                  <div class="absolute -top-4 -left-4 w-32 h-32 bg-gradient-to-br from-amber-400/35 via-amber-500/10 to-transparent rotate-45 transform"></div>
-                  <div class="text-3xl text-amber-400 relative z-10 animate-float">🌤️</div>
+            } 
+            // 3. ASR: Late afternoon slanted golden sunlight transition animation with ambient warm shadows
+            else if (p.id === 'asr') {
+              skyAnimationEngine = `
+                <div class="w-full h-full relative flex items-center justify-center overflow-hidden bg-gradient-to-tr from-[#78350f] via-[#1e1b4b] to-[#0f172a]">
+                  <!-- Slanted Golden Sunlight Rays -->
+                  <div class="absolute -top-6 -left-6 w-36 h-36 bg-gradient-to-br from-amber-400/45 via-amber-500/20 to-transparent rotate-45 transform animate-asr-rays"></div>
+                  <!-- Warm Slanted Shadow Bar -->
+                  <div class="absolute bottom-3 left-4 right-4 h-1 bg-gradient-to-r from-transparent via-amber-600/50 to-transparent blur-[1px]"></div>
+                  <!-- Afternoon Sun Heading Westward -->
+                  <div class="relative z-10 -translate-x-3 -translate-y-2 flex flex-col items-center">
+                    <div class="w-10 h-10 rounded-full bg-gradient-to-br from-amber-400 via-amber-500 to-orange-600 shadow-[0_0_30px_rgba(245,158,11,0.85)] flex items-center justify-center">
+                      <div class="w-5 h-5 rounded-full bg-yellow-200/80 blur-[1px]"></div>
+                    </div>
+                  </div>
                 </div>
               `;
-            } else if (p.id === 'maghrib') {
-              animContent = `
-                <div class="w-full h-full relative flex items-center justify-center overflow-hidden bg-gradient-to-t from-purple-950/90 via-rose-950/50 to-slate-950">
-                  <div class="absolute bottom-1 w-14 h-14 rounded-full bg-rose-500/75 blur-sm"></div>
-                  <div class="text-3xl text-rose-300 relative z-10 animate-float">🌇</div>
+            } 
+            // 4. MAGHRIB: Crimson & purple twilight sunset dynamic animation where sun smoothly dips below horizon
+            else if (p.id === 'maghrib') {
+              skyAnimationEngine = `
+                <div class="w-full h-full relative flex items-center justify-center overflow-hidden bg-gradient-to-t from-[#4c0519] via-[#3b0764] to-[#09090b]">
+                  <!-- Crimson Sky Ambient Glow -->
+                  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(244,63,94,0.4)_0,transparent_75%)]"></div>
+                  <!-- Dusk Horizon Band -->
+                  <div class="absolute bottom-6 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-rose-400 to-transparent opacity-90 shadow-[0_0_15px_#f43f5e]"></div>
+                  <!-- Sunset Sun Dipping Below Horizon -->
+                  <div class="relative z-10 flex flex-col items-center animate-maghrib-dip">
+                    <div class="w-12 h-12 rounded-full bg-gradient-to-b from-rose-400 via-pink-600 to-purple-800 shadow-[0_0_35px_rgba(244,63,94,0.9)] flex items-center justify-center">
+                      <div class="w-6 h-6 rounded-full bg-rose-200/60 blur-[1px]"></div>
+                    </div>
+                  </div>
                 </div>
               `;
-            } else if (p.id === 'isha') {
-              animContent = `
-                <div class="w-full h-full relative flex items-center justify-center overflow-hidden bg-gradient-to-b from-indigo-950/70 via-slate-950 to-slate-950">
-                  <div class="text-3xl text-cyan-300 relative z-10 animate-float">🌙</div>
+            } 
+            // 5. ISHA: Deep starry night sky with dynamic twinkling glowing stars and an illuminated neon cyan crescent moon
+            else if (p.id === 'isha') {
+              skyAnimationEngine = `
+                <div class="w-full h-full relative flex items-center justify-center overflow-hidden bg-gradient-to-b from-[#020617] via-[#090d16] to-[#030712]">
+                  <!-- Twinkling Celestial Night Stars (NO Grid - Organic Placement) -->
+                  <div class="absolute top-3 left-4 w-1.5 h-1.5 rounded-full bg-cyan-200 star-twinkle-1 shadow-[0_0_6px_#2dd4bf]"></div>
+                  <div class="absolute top-6 right-5 w-1 h-1 rounded-full bg-amber-200 star-twinkle-2 shadow-[0_0_5px_#f59e0b]"></div>
+                  <div class="absolute bottom-4 left-5 w-1.5 h-1.5 rounded-full bg-teal-200 star-twinkle-3 shadow-[0_0_6px_#14b8a6]"></div>
+                  <div class="absolute bottom-8 right-6 w-1 h-1 rounded-full bg-white star-twinkle-1"></div>
+                  <div class="absolute top-10 left-10 w-1 h-1 rounded-full bg-cyan-300 star-twinkle-2"></div>
+                  
+                  <!-- Illuminated Neon Cyan Crescent Moon -->
+                  <div class="relative z-10 animate-crescent">
+                    <svg class="w-10 h-10 text-cyan-300 filter drop-shadow-[0_0_15px_#2dd4bf]" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                  </div>
                 </div>
               `;
-            } else {
-              animContent = `
-                <div class="w-full h-full relative flex items-center justify-center overflow-hidden bg-gradient-to-b from-emerald-950/60 via-slate-900 to-teal-950/45">
-                  <div class="w-16 h-16 rounded-full bg-emerald-500/25 blur-md absolute animate-pulse"></div>
-                  <div class="text-3xl text-emerald-300 relative z-10 shadow-[0_0_20px_#10b981]">🕌</div>
+            } 
+            // 6. JUMMAH: Illuminated green & gold animated minaret dome icon with ambient light pulses
+            else {
+              skyAnimationEngine = `
+                <div class="w-full h-full relative flex items-center justify-center overflow-hidden bg-gradient-to-b from-[#064e3b] via-[#022c22] to-[#030712]">
+                  <!-- Ambient Emerald Light Rays -->
+                  <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(16,185,129,0.35)_0,transparent_70%)]"></div>
+                  
+                  <!-- Animated Minaret & Sacred Dome SVG with Light Pulse -->
+                  <div class="relative z-10 animate-jummah-minaret flex flex-col items-center">
+                    <svg class="w-11 h-11 text-emerald-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 2c-1.5 2-4 3.5-4 6v12h8V9c0-2.5-2.5-4-4-6z" fill="rgba(16,185,129,0.2)"/>
+                      <path d="M4 11v10h4V11a2 2 0 0 0-4 0z" fill="rgba(245,158,11,0.2)"/>
+                      <path d="M16 11v10h4V11a2 2 0 0 0-4 0z" fill="rgba(245,158,11,0.2)"/>
+                      <path d="M12 2v1" stroke="#f59e0b" stroke-width="2"/>
+                      <path d="M6 8v3" stroke="#f59e0b"/>
+                      <path d="M18 8v3" stroke="#f59e0b"/>
+                      <circle cx="12" cy="13" r="1.5" fill="#f59e0b"/>
+                    </svg>
+                  </div>
                 </div>
               `;
             }
@@ -1160,9 +1452,12 @@
                   </div>
                   <span class="text-[11px] text-slate-400 block mt-0.5">${p.nameEn}</span>
                 </div>
-                <div class="my-4 sm:my-5 flex items-center justify-center h-24 sm:h-28 relative rounded-2xl bg-slate-950/60 border border-white/5 overflow-hidden">
-                  ${animContent}
+                
+                <!-- Hyper-Realistic Sky Animated Display -->
+                <div class="my-4 sm:my-5 flex items-center justify-center h-24 sm:h-28 relative rounded-2xl bg-slate-950/70 border border-white/10 overflow-hidden shadow-inner">
+                  ${skyAnimationEngine}
                 </div>
+
                 <div class="space-y-1.5 sm:space-y-2 pt-2 border-t border-white/10">
                   <div class="flex items-center justify-between text-xs">
                     <span class="text-slate-400">আজান:</span>
@@ -1181,7 +1476,7 @@
 
         // Ramadan Sehri & Iftar Calculations
         const sehriEndMin = 4 * 60 + 55; // 04:55 AM
-        const iftarStartMin = 17 * 60 + 18; // 05:18 PM
+        const iftarStartMin = 17 * 60 + 25; // 05:25 PM
 
         let autoPhase = 'iftar';
         let targetRamadanMin = iftarStartMin;
@@ -1229,7 +1524,7 @@
                 <div class="absolute bottom-6 -left-10 -right-10 h-8 bg-gradient-to-r from-transparent via-amber-200/20 to-transparent blur-md animate-dawn-mist"></div>
                 <div class="absolute bottom-2 -left-10 -right-10 h-6 bg-gradient-to-r from-transparent via-teal-200/20 to-transparent blur-md animate-dawn-mist" style="animation-delay: 2s;"></div>
                 <div class="absolute bottom-8 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-amber-400 to-transparent opacity-80"></div>
-                <div class="relative z-10 flex flex-col items-center animate-sehri-sun">
+                <div class="relative z-10 flex flex-col items-center animate-fajr-sun">
                   <div class="w-16 h-16 rounded-full bg-gradient-to-tr from-amber-500 via-amber-400 to-yellow-200 shadow-[0_0_40px_rgba(245,158,11,0.9)] flex items-center justify-center text-2xl">🌅</div>
                 </div>
                 <div class="relative z-20 text-center mt-3">
@@ -1243,12 +1538,12 @@
               <div class="w-full h-full relative flex flex-col items-center justify-center bg-gradient-to-t from-purple-950/90 via-rose-950/70 to-slate-950 p-4 overflow-hidden">
                 <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(244,63,94,0.35)_0,transparent_75%)]"></div>
                 <div class="absolute bottom-8 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-rose-400 to-transparent opacity-80"></div>
-                <div class="relative z-10 flex flex-col items-center animate-iftar-dip">
+                <div class="relative z-10 flex flex-col items-center animate-maghrib-dip">
                   <div class="w-16 h-16 rounded-full bg-gradient-to-b from-rose-400 via-pink-500 to-purple-600 shadow-[0_0_45px_rgba(244,63,94,0.9)] flex items-center justify-center text-2xl">🌇</div>
                 </div>
                 <div class="relative z-20 text-center mt-3">
                   <span class="text-xs font-bold text-rose-300 uppercase tracking-widest block">সূর্যাস্ত ও ইফতারের শুভ মুহূর্ত</span>
-                  <span class="text-2xl sm:text-3xl font-black text-white font-mono">০৫:১৮ সন্ধ্যা</span>
+                  <span class="text-2xl sm:text-3xl font-black text-white font-mono">০৫:২৫ সন্ধ্যা</span>
                 </div>
               </div>
             `;
@@ -1364,6 +1659,13 @@
       renderVerse();
       renderTasbih();
       loadWeather();
+
+      // Trigger Auto Entrance Welcome & Live Prayer Status Popup
+      window.addEventListener('DOMContentLoaded', () => {
+        setTimeout(() => {
+          openModal('entranceModal');
+        }, 600);
+      });
     </script>
   </body>
 </html>
