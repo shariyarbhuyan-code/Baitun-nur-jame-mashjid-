@@ -1,0 +1,6 @@
+{
+  "name": "বাইতুন নূর জামে মসজিদ - Baitun Noor Jame Masjid",
+  "description": "কামন খোলা, দালাল বাজার, লক্ষ্মীপুর - আল্ট্রা-লাক্সারি অ্যাক্রিলিক লিকুইড গ্লাস ও লাইভ নিওন সালাত সময়সূচি এবং রিয়েল-টাইম আবহাওয়া ড্যাশবোর্ড।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
